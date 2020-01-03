@@ -4,7 +4,7 @@
 
 //z _buttons.scss - tutaj dajemy z mixinow?
 .test-button {
-    @include button-variant(blue, #000);
+    @include button-variant(red, #000);
 }
 
 .fa-nav {
@@ -21,4 +21,22 @@
 
 .breadcrumb {
     background-color: #f8f9fb;
-  }
+}
+
+.border-bottom {
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.20);
+    -moz-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.20);
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.20);
+}
+
+.nav-item {
+    display: flex;
+}
+.nav-item a:hover {
+    border-bottom: 4px solid #3fb39e;
+}
+  
+.nav-item a.active {
+    border-bottom: 4px solid #3fb39e;
+    
+}
