@@ -41,19 +41,21 @@
 		<body>
 	  	<main role="main" class="container.fluid bg-light">
 		
-			<nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+			<nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom-sass py-0">
     <div class="container">
         
         <a class="navbar pl-0" href="home.html" style="text-decoration: none">
             <i class="fa fa-css3 fa-2x text-primary" aria-hidden="true"></i>
             <nav class="navbar navbar-light pl-2 pr-0">
-                <span class="navbar-brand font-weight-bold">fabryk</span>
+                <span class="navbar-brand font-weight-bold text-dark">fabryk</span>
             </nav> 
         </a>
         
     
         <button class="navbar-toggler border-info" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Przełącznik nawigacji">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon">   
+                <i class="fa fa-bars py-1 mx-auto" style="color:#3fb39e; font-size:25px;"></i>
+            </span>
         </button>
         <div class="collapse navbar-collapse" id="mainmenu">
             
@@ -61,15 +63,15 @@
 
             <!--START NAVBAR - IF YOU ARE LOGGED-->
             <ul class="navbar-nav m-auto">
-                <li class="nav-item">
-                    <a class="nav-link 
+                <li class="nav-item  nav-item-sass">
+                    <a class="nav-link  nav-link-sass 
                                        "" href="home.html">
                         <i class="fa fa-home fa-fw fa-nav" aria-hidden="true"></i>
                         HOME
                     </a>						
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link  
+                <li class="nav-item nav-item-sass">
+                    <a class="nav-link nav-link-sass 
                                         
                                         
                                         
@@ -81,15 +83,15 @@
                         CLIENTS
                     </a>
                 </li>
-                <li class="nav-item">
-                        <a class="nav-link  
+                <li class="nav-item nav-item-sass">
+                        <a class="nav-link nav-link-sass  
                                             "" href="resources.html">
                         <i class="fa fa-cogs fa-fw fa-nav" aria-hidden="true"></i>
                         RESOURCES
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link 
+                <li class="nav-item nav-item-sass">
+                    <a class="nav-link nav-link-sass 
                                         "" href="search.html">
                         <i class="fa fa-search fa-fw fa-nav" aria-hidden="true"></i> 
                         SEARCH
@@ -107,7 +109,7 @@
                     <a class="nav-link d-flex my-auto" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <div class="d-flex flex-nowrap">
                             <div class="order-2 order-lg-1 my-auto mr-3 nav-name">&nbsp;Mark Hohmann</div> 
-                            <div class="order-1 px-1"> <img src="images/avatars/1.jpg" class="rounded-circle" image height="50" width="50"> </div>
+                            <div class="order-1 px-1"> <img src="images/avatars/47.jpg" class="rounded-circle" image height="50" width="50"> </div>
                             <div class="order-3 pl-3 my-auto"><i class="fa fa-caret-down nav-carret" aria-hidden="true"></i></div> 
                         </div>
                     </a>
@@ -148,7 +150,7 @@
 		<div class="container">
 	<body class="bg-light">
         <div class="card border-0">
-            <div class="border">   
+            <div class="border-card">   
                 <!-- START CARD BODY-->
                 <div class="card-body w-100 py-1 px-3 d-sm-inline-flex">
                     <div class="d-flex justify-content-center py-2">
@@ -189,7 +191,7 @@
             <div class="tab-content" id="pills-tabContent">
                 <div class="tab-pane fade" id="button-list" role="tabpanel" aria-labelledby="button-list-tab">
                     <table class="table table-hover mb-0 table-responsive-lg text-nowrap">
-                        <thead class="border-right border-left"> 
+                        <thead class="border-right-sass border-left-sass"> 
                             <tr>
                             <th scope="col"><small class="text-muted">Photo</small></th>
                             <th scope="col"><small class="text-muted">Name</small></th>
@@ -201,20 +203,20 @@
                             <th scope="col"><small class="text-muted ">Actions</small></th>
                             </tr>
                         </thead>
-                        <tbody class="border-right border-left">
+                        <tbody class="border-right-sass border-left-sass">
                         <!--START CLIENTS CONTENT LIST FROM CLIENTS.YML-->
                         
                         
 
                             <tr class="border-top">
                                 <td class="align-middle">
-                                    <img src="images/avatars/37.jpg" class="rounded-circle" image height="25" width="25">
+                                    <img src="images/avatars/15.jpg" class="rounded-circle" image height="25" width="25">
                                 </td>
                                 <td class="align-middle">
-                                    <a href="user_details.html">Elenora Yasmin</a>
+                                    <a href="user_details.html">Regan September</a>
                                 </td>
                                 <td class="align-middle">
-                                    dwendlan@me.com
+                                    sherzodr@me.com
                                 </td>
                                 <th scope="row" class="align-middle">
                                         
@@ -237,13 +239,13 @@
 
                             <tr class="border-top">
                                 <td class="align-middle">
-                                    <img src="images/avatars/34.jpg" class="rounded-circle" image height="25" width="25">
+                                    <img src="images/avatars/28.jpg" class="rounded-circle" image height="25" width="25">
                                 </td>
                                 <td class="align-middle">
-                                    <a href="user_details.html">Zinnia Mervyn</a>
+                                    <a href="user_details.html">Perlie Glenda</a>
                                 </td>
                                 <td class="align-middle">
-                                    kmiller@yahoo.ca
+                                    mgreen@optonline.net
                                 </td>
                                 <th scope="row" class="align-middle">
                                           
@@ -266,13 +268,13 @@
 
                             <tr class="border-top">
                                 <td class="align-middle">
-                                    <img src="images/avatars/10.jpg" class="rounded-circle" image height="25" width="25">
+                                    <img src="images/avatars/46.jpg" class="rounded-circle" image height="25" width="25">
                                 </td>
                                 <td class="align-middle">
-                                    <a href="user_details.html">Zinnia Mervyn</a>
+                                    <a href="user_details.html">Cherish Janette</a>
                                 </td>
                                 <td class="align-middle">
-                                    sethbrown@aol.com
+                                    ilikered@gmail.com
                                 </td>
                                 <th scope="row" class="align-middle">
                                         
@@ -295,13 +297,13 @@
 
                             <tr class="border-top">
                                 <td class="align-middle">
-                                    <img src="images/avatars/9.jpg" class="rounded-circle" image height="25" width="25">
+                                    <img src="images/avatars/23.jpg" class="rounded-circle" image height="25" width="25">
                                 </td>
                                 <td class="align-middle">
-                                    <a href="user_details.html">Holden Alecia</a>
+                                    <a href="user_details.html">Zinnia Mervyn</a>
                                 </td>
                                 <td class="align-middle">
-                                    north@optonline.net
+                                    sblack@me.com
                                 </td>
                                 <th scope="row" class="align-middle">
                                         
@@ -324,13 +326,13 @@
 
                             <tr class="border-top">
                                 <td class="align-middle">
-                                    <img src="images/avatars/44.jpg" class="rounded-circle" image height="25" width="25">
+                                    <img src="images/avatars/42.jpg" class="rounded-circle" image height="25" width="25">
                                 </td>
                                 <td class="align-middle">
-                                    <a href="user_details.html">Haydn Taegan</a>
+                                    <a href="user_details.html">Holden Alecia</a>
                                 </td>
                                 <td class="align-middle">
-                                    gomor@verizon.net
+                                    benanov@mac.com
                                 </td>
                                 <th scope="row" class="align-middle">
                                           
@@ -353,13 +355,13 @@
 
                             <tr class="border-top">
                                 <td class="align-middle">
-                                    <img src="images/avatars/39.jpg" class="rounded-circle" image height="25" width="25">
+                                    <img src="images/avatars/48.jpg" class="rounded-circle" image height="25" width="25">
                                 </td>
                                 <td class="align-middle">
-                                    <a href="user_details.html">Travis Dalton</a>
+                                    <a href="user_details.html">Regan September</a>
                                 </td>
                                 <td class="align-middle">
-                                    jacks@msn.com
+                                    mgreen@optonline.net
                                 </td>
                                 <th scope="row" class="align-middle">
                                          
@@ -382,13 +384,13 @@
 
                             <tr class="border-top">
                                 <td class="align-middle">
-                                    <img src="images/avatars/17.jpg" class="rounded-circle" image height="25" width="25">
+                                    <img src="images/avatars/5.jpg" class="rounded-circle" image height="25" width="25">
                                 </td>
                                 <td class="align-middle">
-                                    <a href="user_details.html">Cherish Janette</a>
+                                    <a href="user_details.html">Manny Tranter</a>
                                 </td>
                                 <td class="align-middle">
-                                    lahvak@icloud.com
+                                    mavilar@sbcglobal.net
                                 </td>
                                 <th scope="row" class="align-middle">
                                         
@@ -411,13 +413,13 @@
 
                             <tr class="border-top">
                                 <td class="align-middle">
-                                    <img src="images/avatars/42.jpg" class="rounded-circle" image height="25" width="25">
+                                    <img src="images/avatars/23.jpg" class="rounded-circle" image height="25" width="25">
                                 </td>
                                 <td class="align-middle">
-                                    <a href="user_details.html">Travis Dalton</a>
+                                    <a href="user_details.html">Paulie Kortney</a>
                                 </td>
                                 <td class="align-middle">
-                                    wagnerch@gmail.com
+                                    sblack@me.com
                                 </td>
                                 <th scope="row" class="align-middle">
                                           
@@ -441,7 +443,7 @@
 						<!--CARD FOOTER-->
                         </tbody>
 					</table>
-					<div class="card-footer d-sm-flex bg-white m-0 p-2 px-3 border" >
+					<div class="card-footer d-sm-flex bg-white m-0 p-2 px-3 border-sass" >
                         <div class="my-auto text-center text-md-left"><small class="text-muted">Showing 1 to 10 of 57 Entires</small></div>
                         <nav aria-label="Page navigation example" class="ml-auto p-0" data-toggle="modal" data-target="#nologinmodal">
                             <ul class="pagination justify-content-center justify-content-md-end my-auto">
@@ -464,19 +466,19 @@
                                 <div class="row">
                                     
                                     <div class="col-12 col-sm-6 col-md-4 col-xl-3 py-2">
-                                        <div class="card">
+                                        <div class="card card-sass">
                                             <div class="card-body p-0">
                                                 <div class="row">
                                                     <div class="col text-center p-4">
-                                                        <a href="user_details.html"><img class="rounded-circle " src="images/avatars/8.jpg"  alt="Generic placeholder" image height="100" width="100"></a>
+                                                        <a href="user_details.html"><img class="rounded-circle " src="images/avatars/32.jpg"  alt="Generic placeholder" image height="100" width="100"></a>
                                                     </div>
                                                     <div class="w-100"></div>
                                                     <div class="col text-center pb-1">
-                                                        <a href="user_details.html">Holden Alecia</a>
+                                                        <a href="user_details.html">Kristi Horace</a>
                                                     </div>
                                                     <div class="w-100"></div>
                                                     <div class="col text-center pb-1">
-                                                        demmel@me.com
+                                                        kmiller@yahoo.ca
                                                     </div>
                                                     <div class="w-100"></div>
                                                     <div class="col text-center pb-4">
@@ -502,19 +504,19 @@
                                     </div>
                                     
                                     <div class="col-12 col-sm-6 col-md-4 col-xl-3 py-2">
-                                        <div class="card">
+                                        <div class="card card-sass">
                                             <div class="card-body p-0">
                                                 <div class="row">
                                                     <div class="col text-center p-4">
-                                                        <a href="user_details.html"><img class="rounded-circle " src="images/avatars/48.jpg"  alt="Generic placeholder" image height="100" width="100"></a>
+                                                        <a href="user_details.html"><img class="rounded-circle " src="images/avatars/11.jpg"  alt="Generic placeholder" image height="100" width="100"></a>
                                                     </div>
                                                     <div class="w-100"></div>
                                                     <div class="col text-center pb-1">
-                                                        <a href="user_details.html">Shelagh Ricky</a>
+                                                        <a href="user_details.html">Sequoia Oscar</a>
                                                     </div>
                                                     <div class="w-100"></div>
                                                     <div class="col text-center pb-1">
-                                                        arebenti@yahoo.com
+                                                        scarlet@att.net
                                                     </div>
                                                     <div class="w-100"></div>
                                                     <div class="col text-center pb-4">
@@ -540,19 +542,19 @@
                                     </div>
                                     
                                     <div class="col-12 col-sm-6 col-md-4 col-xl-3 py-2">
-                                        <div class="card">
+                                        <div class="card card-sass">
                                             <div class="card-body p-0">
                                                 <div class="row">
                                                     <div class="col text-center p-4">
-                                                        <a href="user_details.html"><img class="rounded-circle " src="images/avatars/14.jpg"  alt="Generic placeholder" image height="100" width="100"></a>
+                                                        <a href="user_details.html"><img class="rounded-circle " src="images/avatars/19.jpg"  alt="Generic placeholder" image height="100" width="100"></a>
                                                     </div>
                                                     <div class="w-100"></div>
                                                     <div class="col text-center pb-1">
-                                                        <a href="user_details.html">Paulie Kortney</a>
+                                                        <a href="user_details.html">Kristia Tiffany</a>
                                                     </div>
                                                     <div class="w-100"></div>
                                                     <div class="col text-center pb-1">
-                                                        specprog@me.com
+                                                        caidaperl@live.com
                                                     </div>
                                                     <div class="w-100"></div>
                                                     <div class="col text-center pb-4">
@@ -578,19 +580,19 @@
                                     </div>
                                     
                                     <div class="col-12 col-sm-6 col-md-4 col-xl-3 py-2">
-                                        <div class="card">
+                                        <div class="card card-sass">
                                             <div class="card-body p-0">
                                                 <div class="row">
                                                     <div class="col text-center p-4">
-                                                        <a href="user_details.html"><img class="rounded-circle " src="images/avatars/37.jpg"  alt="Generic placeholder" image height="100" width="100"></a>
+                                                        <a href="user_details.html"><img class="rounded-circle " src="images/avatars/24.jpg"  alt="Generic placeholder" image height="100" width="100"></a>
                                                     </div>
                                                     <div class="w-100"></div>
                                                     <div class="col text-center pb-1">
-                                                        <a href="user_details.html">Travis Dalton</a>
+                                                        <a href="user_details.html">Bristol Lindsay</a>
                                                     </div>
                                                     <div class="w-100"></div>
                                                     <div class="col text-center pb-1">
-                                                        mgreen@optonline.net
+                                                        jaxweb@mac.com
                                                     </div>
                                                     <div class="w-100"></div>
                                                     <div class="col text-center pb-4">
@@ -616,11 +618,49 @@
                                     </div>
                                     
                                     <div class="col-12 col-sm-6 col-md-4 col-xl-3 py-2">
-                                        <div class="card">
+                                        <div class="card card-sass">
                                             <div class="card-body p-0">
                                                 <div class="row">
                                                     <div class="col text-center p-4">
-                                                        <a href="user_details.html"><img class="rounded-circle " src="images/avatars/30.jpg"  alt="Generic placeholder" image height="100" width="100"></a>
+                                                        <a href="user_details.html"><img class="rounded-circle " src="images/avatars/31.jpg"  alt="Generic placeholder" image height="100" width="100"></a>
+                                                    </div>
+                                                    <div class="w-100"></div>
+                                                    <div class="col text-center pb-1">
+                                                        <a href="user_details.html">Kristi Horace</a>
+                                                    </div>
+                                                    <div class="w-100"></div>
+                                                    <div class="col text-center pb-1">
+                                                        kmiller@yahoo.ca
+                                                    </div>
+                                                    <div class="w-100"></div>
+                                                    <div class="col text-center pb-4">
+                                                              
+                                                        <span class="badge badge-pill badge-danger">Registered</span>
+                                                            
+                                                    </div>                                  
+                                                </div>
+                                            </div>
+                                            <div class="card-footer ">
+                                                <div class="row">
+                                                    <div class="col p-0 ml-2">
+                                                        <i class="fa fa-trash-o fa-fw text-muted" aria-hidden="true"></i>
+                                                        <a href="#" data-toggle="modal" data-target="#delete_member"> Delete</a>
+                                                    </div>
+                                                    <div class="col text-right p-0 mr-2">
+                                                        <i class="fa fa-pencil-square-o fa-fw text-muted" aria-hidden="true"></i>
+                                                        <a href="#"  data-toggle="modal" data-target="#edit_client"> Edit Client</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-12 col-sm-6 col-md-4 col-xl-3 py-2">
+                                        <div class="card card-sass">
+                                            <div class="card-body p-0">
+                                                <div class="row">
+                                                    <div class="col text-center p-4">
+                                                        <a href="user_details.html"><img class="rounded-circle " src="images/avatars/27.jpg"  alt="Generic placeholder" image height="100" width="100"></a>
                                                     </div>
                                                     <div class="w-100"></div>
                                                     <div class="col text-center pb-1">
@@ -628,45 +668,7 @@
                                                     </div>
                                                     <div class="w-100"></div>
                                                     <div class="col text-center pb-1">
-                                                        enintend@att.net
-                                                    </div>
-                                                    <div class="w-100"></div>
-                                                    <div class="col text-center pb-4">
-                                                              
-                                                        <span class="badge badge-pill badge-danger">Registered</span>
-                                                            
-                                                    </div>                                  
-                                                </div>
-                                            </div>
-                                            <div class="card-footer ">
-                                                <div class="row">
-                                                    <div class="col p-0 ml-2">
-                                                        <i class="fa fa-trash-o fa-fw text-muted" aria-hidden="true"></i>
-                                                        <a href="#" data-toggle="modal" data-target="#delete_member"> Delete</a>
-                                                    </div>
-                                                    <div class="col text-right p-0 mr-2">
-                                                        <i class="fa fa-pencil-square-o fa-fw text-muted" aria-hidden="true"></i>
-                                                        <a href="#"  data-toggle="modal" data-target="#edit_client"> Edit Client</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="col-12 col-sm-6 col-md-4 col-xl-3 py-2">
-                                        <div class="card">
-                                            <div class="card-body p-0">
-                                                <div class="row">
-                                                    <div class="col text-center p-4">
-                                                        <a href="user_details.html"><img class="rounded-circle " src="images/avatars/45.jpg"  alt="Generic placeholder" image height="100" width="100"></a>
-                                                    </div>
-                                                    <div class="w-100"></div>
-                                                    <div class="col text-center pb-1">
-                                                        <a href="user_details.html">Zinnia Mervyn</a>
-                                                    </div>
-                                                    <div class="w-100"></div>
-                                                    <div class="col text-center pb-1">
-                                                        wildfire@me.com
+                                                        srour@live.com
                                                     </div>
                                                     <div class="w-100"></div>
                                                     <div class="col text-center pb-4">
@@ -692,19 +694,19 @@
                                     </div>
                                     
                                     <div class="col-12 col-sm-6 col-md-4 col-xl-3 py-2">
-                                        <div class="card">
+                                        <div class="card card-sass">
                                             <div class="card-body p-0">
                                                 <div class="row">
                                                     <div class="col text-center p-4">
-                                                        <a href="user_details.html"><img class="rounded-circle " src="images/avatars/34.jpg"  alt="Generic placeholder" image height="100" width="100"></a>
+                                                        <a href="user_details.html"><img class="rounded-circle " src="images/avatars/25.jpg"  alt="Generic placeholder" image height="100" width="100"></a>
                                                     </div>
                                                     <div class="w-100"></div>
                                                     <div class="col text-center pb-1">
-                                                        <a href="user_details.html">Regan September</a>
+                                                        <a href="user_details.html">Haydn Taegan</a>
                                                     </div>
                                                     <div class="w-100"></div>
                                                     <div class="col text-center pb-1">
-                                                        wagnerch@gmail.com
+                                                        hmbrand@icloud.com
                                                     </div>
                                                     <div class="w-100"></div>
                                                     <div class="col text-center pb-4">
@@ -730,19 +732,19 @@
                                     </div>
                                     
                                     <div class="col-12 col-sm-6 col-md-4 col-xl-3 py-2">
-                                        <div class="card">
+                                        <div class="card card-sass">
                                             <div class="card-body p-0">
                                                 <div class="row">
                                                     <div class="col text-center p-4">
-                                                        <a href="user_details.html"><img class="rounded-circle " src="images/avatars/42.jpg"  alt="Generic placeholder" image height="100" width="100"></a>
+                                                        <a href="user_details.html"><img class="rounded-circle " src="images/avatars/2.jpg"  alt="Generic placeholder" image height="100" width="100"></a>
                                                     </div>
                                                     <div class="w-100"></div>
                                                     <div class="col text-center pb-1">
-                                                        <a href="user_details.html">Trecia Tom</a>
+                                                        <a href="user_details.html">Kristia Tiffany</a>
                                                     </div>
                                                     <div class="w-100"></div>
                                                     <div class="col text-center pb-1">
-                                                        wagnerch@gmail.com
+                                                        avalon@icloud.com
                                                     </div>
                                                     <div class="w-100"></div>
                                                     <div class="col text-center pb-4">
@@ -1296,7 +1298,7 @@
             </div>
             <div class="modal-footer px-4">
                     
-                    <a class="text-danger mr-auto" href="#" data-toggle="modal" data-target="#delete_member">Delete this client</a>
+                    <a class="text-danger mr-auto text-center" href="#" data-toggle="modal" data-target="#delete_member">Delete<br> this Client</a>
                     
                     <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
                 <a href=""><button type="button" class="btn btn-primary">Edit Client</button></a>
@@ -1320,7 +1322,7 @@
 						</div>
 						<div class="w-100"></div>
 						<div class="col text-center pt-3">
-							<span>Are you sure you want to delete this task?<br> Note, you cannot undo this change.</span>
+							<span>Are you sure you want to delete this task? Note, you cannot undo this change.</span>
 						</div>
 						<div class="w-100"></div>
 						<div class="col py-3 d-flex justify-content-around">
@@ -1350,7 +1352,7 @@
 						</div>
 						<div class="w-100"></div>
 						<div class="col text-center pt-3">
-							<span>Are you sure you want to delete this member?<br> Note, you cannot undo this change.</span>
+							<span>Are you sure you want to delete this member? Note, you cannot undo this change.</span>
 						</div>
 						<div class="w-100"></div>
 						<div class="col py-3 d-flex justify-content-around">

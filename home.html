@@ -41,19 +41,21 @@
 		<body>
 	  	<main role="main" class="container.fluid bg-light">
 		
-			<nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+			<nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom-sass py-0">
     <div class="container">
         
         <a class="navbar pl-0" href="home.html" style="text-decoration: none">
             <i class="fa fa-css3 fa-2x text-primary" aria-hidden="true"></i>
             <nav class="navbar navbar-light pl-2 pr-0">
-                <span class="navbar-brand font-weight-bold">fabryk</span>
+                <span class="navbar-brand font-weight-bold text-dark">fabryk</span>
             </nav> 
         </a>
         
     
         <button class="navbar-toggler border-info" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Przełącznik nawigacji">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon">   
+                <i class="fa fa-bars py-1 mx-auto" style="color:#3fb39e; font-size:25px;"></i>
+            </span>
         </button>
         <div class="collapse navbar-collapse" id="mainmenu">
             
@@ -61,15 +63,15 @@
 
             <!--START NAVBAR - IF YOU ARE LOGGED-->
             <ul class="navbar-nav m-auto">
-                <li class="nav-item">
-                    <a class="nav-link 
+                <li class="nav-item  nav-item-sass">
+                    <a class="nav-link  nav-link-sass 
                                        active"" href="home.html">
                         <i class="fa fa-home fa-fw fa-nav" aria-hidden="true"></i>
                         HOME
                     </a>						
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link  
+                <li class="nav-item nav-item-sass">
+                    <a class="nav-link nav-link-sass 
                                         
                                         
                                         
@@ -81,15 +83,15 @@
                         CLIENTS
                     </a>
                 </li>
-                <li class="nav-item">
-                        <a class="nav-link  
+                <li class="nav-item nav-item-sass">
+                        <a class="nav-link nav-link-sass  
                                             "" href="resources.html">
                         <i class="fa fa-cogs fa-fw fa-nav" aria-hidden="true"></i>
                         RESOURCES
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link 
+                <li class="nav-item nav-item-sass">
+                    <a class="nav-link nav-link-sass 
                                         "" href="search.html">
                         <i class="fa fa-search fa-fw fa-nav" aria-hidden="true"></i> 
                         SEARCH
@@ -107,7 +109,7 @@
                     <a class="nav-link d-flex my-auto" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <div class="d-flex flex-nowrap">
                             <div class="order-2 order-lg-1 my-auto mr-3 nav-name">&nbsp;Mark Hohmann</div> 
-                            <div class="order-1 px-1"> <img src="images/avatars/47.jpg" class="rounded-circle" image height="50" width="50"> </div>
+                            <div class="order-1 px-1"> <img src="images/avatars/22.jpg" class="rounded-circle" image height="50" width="50"> </div>
                             <div class="order-3 pl-3 my-auto"><i class="fa fa-caret-down nav-carret" aria-hidden="true"></i></div> 
                         </div>
                     </a>
@@ -151,7 +153,7 @@
   			<h2>Hi Mark,</h2>
 			<p class="pb-3">See what is happening today in this summary:</p>
 		</div>
-
+<!--
 <section class="test">
 	<div class="container">
 		<div class="row">
@@ -161,7 +163,7 @@
 		</div>
 	</div>
 </section>
-
+-->
 		<div class="row">
 			<div class="col-12 col-sm-6 col-lg-3">
 				<a href="clients.html" style="text-decoration: none">
@@ -255,14 +257,14 @@
 			<dd class="col-10 col-md-9">
 				<i class="fa fa-user-o text-warning" aria-hidden="true"></i>
 				<span class="text-muted">A new user has registered</span>
-				<a href="user_details.html">Kody Stella</a>	
+				<a href="user_details.html">Wallace Ashlyn</a>	
 			</dd>
 		  
 			<dt class="col-2 col-md-3 text-right">12:34</dt>
 			<dd class="col-10 col-md-9">
 				<i class="fa fa-sticky-note-o text-success" aria-hidden="true"></i>
 				<span class="text-muted">Client</span>
-				<a href="user_details.html">Cherish Janette</a>	
+				<a href="user_details.html">Erica Seward</a>	
 				<span class="text-muted">added a</span>
 				<a href="resources.html">New Note</a>
 			</dd>
@@ -271,7 +273,7 @@
 			<dd class="col-10 col-md-9">
 				<i class="fa fa-comment-o text-info" aria-hidden="true"></i>
 				<span class="text-muted">Client </span>
-				<a href="user_details.html">Colin Radcliff</a> 
+				<a href="user_details.html">Adalyn Joye</a> 
 				<span class="text-muted">added a</span>
 				<a href="resources.html">New Comment</a> 
 				<span class="text-muted">to the task</span> 
@@ -282,7 +284,7 @@
 			<dd class="col-10 col-md-9">
 				<i class="fa fa-check-square-o text-primary" aria-hidden="true"></i>
 				<span class="text-muted">Admin</span>
-				<a href="user_details.html">Shelagh Ricky</a> 
+				<a href="user_details.html">Wallace Ashlyn</a> 
 				<span class="text-muted">has added a</span>
 				<a href="resources.html">New Task</a>
 				<span class="text-muted">for you. </span>
@@ -293,13 +295,13 @@
 	
 				<i class="fa fa-user-o text-warning" aria-hidden="true"></i>
 				<span class="text-muted">A new user has registered</span>
-				<a href="user_details.html">Wallace Ashlyn</a>
+				<a href="user_details.html">Kristi Horace</a>
 			</dd>
 			<dt class="col-2 col-md-3 text-right">11:34</dt>
 			<dd class="col-10 col-md-9">
 				<i class="fa fa-sticky-note-o text-success" aria-hidden="true"></i>
 				<span class="text-muted">Client</span>
-				<a href="user_details.html">Haydn Taegan</a>	
+				<a href="user_details.html">Tyrrell Kelli</a>	
 				<span class="text-muted">added a</span>
 				<a href="resources.html">New Note</a>
 			</dd>
@@ -307,7 +309,7 @@
 			<dd class="col-10 col-md-9">
 				<i class="fa fa-comment-o text-info" aria-hidden="true"></i>
 				<span class="text-muted">Client </span>
-				<a href="user_details.html">Bristol Lindsay</a> 
+				<a href="user_details.html">Zinnia Mervyn</a> 
 				<span class="text-muted">added a</span>
 				<a href="resources.html">New Comment</a> 
 				<span class="text-muted">to the task</span> 
@@ -317,7 +319,7 @@
 			<dd class="col-10 col-md-9">
 				<i class="fa fa-check-square-o text-primary" aria-hidden="true"></i>
 				<span class="text-muted">Admin</span>
-				<a href="user_details.html">Manny Tranter</a> 
+				<a href="user_details.html">Erica Seward</a> 
 				<span class="text-muted">has added a</span>
 				<a href="resources.html">New Task</a>
 				<span class="text-muted">for you. </span>
@@ -332,13 +334,13 @@
 			<dd class="col-10 col-md-9">
 				<i class="fa fa-user-o text-warning" aria-hidden="true"></i>
 				<span class="text-muted">A new user has registered</span>
-				<a href="user_details.html">Skyla Rosamond</a>	
+				<a href="user_details.html">Jon Benjy</a>	
 			</dd>
 			<dt class="col-2 col-md-3 text-right">15:34</dt>
 			<dd class="col-10 col-md-9">
 				<i class="fa fa-sticky-note-o text-success" aria-hidden="true"></i>
 				<span class="text-muted">Client</span>
-				<a href="user_details.html">Tyrrell Kelli</a>	
+				<a href="user_details.html">Elenora Yasmin</a>	
 				<span class="text-muted">added a</span>
 				<a href="resources.html">New Note</a>
 			</dd>
@@ -346,7 +348,7 @@
 			<dd class="col-10 col-md-9">
 				<i class="fa fa-comment-o text-info" aria-hidden="true"></i>
 				<span class="text-muted">Client </span>
-				<a href="user_details.html">Adalyn Joye</a> 
+				<a href="user_details.html">Manny Tranter</a> 
 				<span class="text-muted">added a</span>
 				<a href="resources.html">New Comment</a> 
 				<span class="text-muted">to the task</span> 
