@@ -8,27 +8,27 @@
 }
 
 //navbar
-
+//ikona w navbar
 .fa-nav {
     color:#8196a5;
 }
-
+//imie w navbar
 .nav-name {
     color:black;
     size: 20px;
 }
-
+//border w navbar
 .border-bottom-sass {
     border-bottom: 1px solid #dee2e6; 
     -webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.20);
     -moz-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.20);
     box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.20);
 }
-
+//kolor ikony przy zdjeciu - navar
 .nav-carret {
     color:#8196a5;
 }
-
+//wysrodkowanie buttonow w navbar
 .nav-link-sass {
     padding-top: 22px;
     padding-bottom: 22px;
@@ -41,9 +41,14 @@
 .nav-item-sass a.active {
     border-bottom: 4px solid #3fb39e;  
 }
-
+//breadcrumb
 .breadcrumb {
-    background-color: #f8f9fb;
+    background-color: #F4F7FB;
+}
+
+//bacckground strony
+.website-bckg-color {
+    background-color: #F4F7FB;
 }
 
 .border-card {
@@ -51,51 +56,21 @@
     border-radius: 5px;
 }
 
-.card-sass {
-    border: 1px solid #DEE2E6;
-    border-radius: 5px;
-}
-
-.border-sass {
-    -webkit-box-shadow: inset 0px 0px 0px 1px rgba(222,226,230,1);
-    -moz-box-shadow: inset 0px 0px 0px 1px rgba(222,226,230,1);
-    box-shadow: inset 0px 0px 0px 1px rgba(222,226,230,1);
-
-    border-radius: 0px 0px 9px 9px;
-    -moz-border-radius: 0px 0px 9px 9px;
-    -webkit-border-radius: 0px 0px 9px 9px;
-    border: 1px solid #dee2e6;
-}
-
-.border-right-sass {
-    border-right: 2px solid #dee2e6;
-}
-
-.border-left-sass {
-    border-left: 2px solid #dee2e6;
-}
-
 .text-size-user-detail {
     font-size: 13px;
 }
 
-.card-header-border {
-    
-    border: 1px solid #DEE2E6;
-    border-radius: 5px;
+.card-header {
+    background-color: #F4F7FB;
+    box-shadow: inset 0px 0px 0px 2px white;
 }
 
-.card-header-border2 {
-    border: 1px solid #DEE2E6;
-    border-top: 0px;
+.card-body {
+    background-color: #F4F7FB;
+    box-shadow: inset 0px 0px 0px 2px white;
 }
 
-.card-header-task-list {
-border-top: 0px;
-}
-
-//TEST CARD
-.card {
-    Border: 1px solid #DEE2E6 !important;
-    Box-shadow: inset;
+.footer-pagination {
+    background-color: #F4F7FB;
+    box-shadow: inset 0px 0px 0px 2px white;
 }
