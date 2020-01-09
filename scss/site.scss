@@ -29,8 +29,8 @@
 
 //wysrodkowanie buttonow w navbar
 .nav-link-sass {
-    padding-top: 26px;
-    padding-bottom: 20px;
+    padding-top: 25px;
+    padding-bottom: 21px;
 }
 .nav-text {
     
@@ -90,8 +90,11 @@
     box-shadow: 0px 1px 0px 0px #e8edf3;
 }
 
+.modal-color {
+    background-color:#F4F7FB;
+}
 
-.h3, .h2 {
+.h3, .h2, .h5 {
     color:#232c3b !important;
 }
 
