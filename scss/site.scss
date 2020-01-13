@@ -4,35 +4,31 @@
 
 //z _buttons.scss - tutaj dajemy z mixinow?
 
-//navbar
+.website-bckg-color {
+    background-color: #F4F7FB;
+}
+
+                                                  //navbar
 //ikona w navbar
 .fa-nav, .nav-carret {
     color:#8196a5;
 }
-
-.navbar-nav
-
 //imie w navbar
 .nav-name {
     color: #232c3a;
     font-size: 13px;
     letter-spacing: 1.5px;
-
 }
-
-
 //border w navbar
 .border-bottom-sass {
     box-shadow: 0px 2px 0px 0px #e6edf0;
 }
-
 //wysrodkowanie buttonow w navbar
 .nav-link-sass {
     padding-top: 25px;
     padding-bottom: 21px;
 }
 .nav-text {
-    
     font-size: 13px;
     letter-spacing: 1.0px;
     font-weight: 500;
@@ -45,11 +41,22 @@
 .nav-item-sass a.active {
     border-bottom: 4px solid #3fb39e;  
 }
-
-.border-card {
-    border: 1px solid #DEE2E6;
-    border-radius: 5px;
+.breadcrumb {
+    background-color: #F4F7FB;
 }
+                                                     //CARDS
+.card-header {
+    background-color: #F4F7FB;
+    box-shadow: inset 0px 2px 0px 0px white;
+}
+.card {
+    box-shadow: 0px 1px 0px 0px #e6edf0;
+    //powinien byc  1px
+}
+.card-footer {
+    background-color: #e6edf0;
+  }
+                                                        //CARDS                               
 
 .text-size-search-filter, .delete-font-size {
     font-size: 13px;
@@ -59,40 +66,6 @@
     color:#697f8d;
     white-space: nowrap;
 }
-
-.card-header {
-    background-color: #F4F7FB;
-    box-shadow: inset 0px 2px 0px 0px white;
-}
-
-.card-body, .footer-pagination-color, .website-bckg-color, {
-    background-color: #F4F7FB;
-}
-.breadcrumb {
-    background-color: #F4F7FB;
-}
-
-.footer-pagination {
-    background-color: #edeef0;
-}
-
-.card-shadow {
-    box-shadow: 10px 10px 10px -3px rgba(204,204,204,1);
-}
-
-.card-shadow2 {
-    
-} 
-
-.table-shadow {
-    box-shadow: inset 0px 2px 0px 0px #F4F7FB;
-}
-
-
-.pagination-shadow {
-    box-shadow: 0px 1px 0px 0px #e8edf3;
-}
-
 .modal-color {
     background-color:#F4F7FB;
 }
@@ -100,3 +73,14 @@
 .h3, .h2, .h5 {
     color:#232c3b !important;
 }
+
+
+
+
+
+.table-footer {
+    box-shadow: 0px 1px 0px 0px #e6edf0;
+    background-color: #e6edf0;
+}
+
+
